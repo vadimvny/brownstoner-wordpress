@@ -14,6 +14,11 @@
 		<hgroup>
 			<h1><a href="<?php home_url('/')?>"><img src="http://cdn.brownstoner.com/wp-content/uploads/2013/06/brownstoner_logo2.png"></a></h1>
 		</hgroup>
-		<nav><?php wp_nav_menu(); ?></nav>
+		<nav id="primary"><?php wp_nav_menu('primary'); ?></nav>
+		<nav id="secondary"><?php wp_nav_menu( array('container_class' => 'menu-footer',
+'theme_location' => 'secondary' ) ); ?>
 	</header>
 	<div id="container">	
+		<div id="sub-header">
+			
+		</div>
