@@ -39,13 +39,53 @@ h1, h2, h3, h4, h5 {
 
 #container, header, nav, footer {
 	width: 800px;
-	padding: 20px;
 	margin: 0 auto;
 }
 
 /*--------------------------------------
 Header
 --------------------------------------*/
+hgroup {
+	background: url(http://cdn.brownstoner.com/wp-content/uploads/2013/06/brownstoner_header1.jpg);
+	height: 109px;
+	width: 100%;
+}
+
+hgroup h1 {
+	z-index: 99999;
+  	float: left;
+  	margin: 0 0 0 0;
+}
+
+nav {
+	background: black;
+	min-height: 25px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+  position: relative;
+  float: left;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  font-family: Arial;
+  text-transform: uppercase;
+  float: left;
+  padding: 6px 0px 0px 0px;
+}
+
 #container {
 	width: 800px;
 	padding: 20px;
@@ -74,7 +114,6 @@ Footer
 --------------------------------------*/
 footer {
 	width: 800px;
-	padding: 20px;
 	margin: 0 auto;
 	background: black;
 

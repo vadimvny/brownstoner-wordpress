@@ -11,9 +11,9 @@
 </head>
 <body>
 	<header>
-		<h1><a href="<?php home_url('/')?>"><?php bloginfo('name')?></a>	</h1>
+		<hgroup>
+			<h1><a href="<?php home_url('/')?>"><img src="http://cdn.brownstoner.com/wp-content/uploads/2013/06/brownstoner_logo2.png"></a></h1>
+		</hgroup>
 		<nav><?php wp_nav_menu(); ?></nav>
 	</header>
 	<div id="container">	
-
-</html>
