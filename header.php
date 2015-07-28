@@ -15,10 +15,21 @@
 			<h1><a href="<?php home_url('/')?>"><img src="http://cdn.brownstoner.com/wp-content/uploads/2013/06/brownstoner_logo2.png"></a></h1>
 		</hgroup>
 		<nav id="primary"><?php wp_nav_menu('primary'); ?></nav>
-		<nav id="secondary"><?php wp_nav_menu( array('container_class' => 'menu-footer',
-'theme_location' => 'secondary' ) ); ?>
+		<div id="sub-header">
+			<div class="newsletter">	
+				<h6>Sign up for the Brownstoner daily email:</h6>	
+				<form action="index.php">
+					<input type="text" name="newsletter" method="post" />
+					<input type="submit" name="submit" value="Send" />
+				</form>				
+			</div>
+			<nav id="secondary">
+					<?php wp_nav_menu( array('container_class' => 'menu-footer',
+					'theme_location' => 'secondary' ) ); 
+					?>
+			</nav>
+			<?php get_sidebar(); ?>
+		</div>
 	</header>
 	<div id="container">	
-		<div id="sub-header">
-			
-		</div>
+
