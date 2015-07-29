@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5 {
 	height: 17px;
 }
 
+.widget { list-style: none }
 /*--------------------------------------
 Header
 --------------------------------------*/
@@ -84,7 +85,7 @@ nav#primary ul li a {
   font-family: Arial;
   text-transform: uppercase;
   float: left;
-  padding: 6px 0px 0px 0px;
+  padding: 1px 0px 0px 37px;
 }
 
 #container {
@@ -246,4 +247,8 @@ nav#ft-secondary ul li a {
   text-decoration: none;
 
 }
+
+/*---------------------------------------
+
+-----------------------------------------*/
 
