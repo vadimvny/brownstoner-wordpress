@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
 
 .widget { list-style: none }
 /*--------------------------------------
-Header
+	Header
 --------------------------------------*/
 hgroup {
 	background: url(http://cdn.brownstoner.com/wp-content/uploads/2013/06/brownstoner_header1.jpg);
@@ -161,6 +161,12 @@ nav#secondary ul li a {
 	padding: 15px;
 	margin: 0px 0px 0px -27px;
 }
+
+.large-3.columns.ad {
+	width: 250px;
+	height: 250px;
+}
+
 /*--------------------------------------
 Main
 --------------------------------------*/
@@ -174,26 +180,26 @@ Main
 SideBar
 --------------------------------------*/
 aside {
-	float: right;
-	width: 200px;
+  float: right;
+  width: 250px;
+  margin: -284px 0px 0px 5px;
 
+}
+
+aside img {
+  width: 282px;
+  height: 209px;
 }
 /*--------------------------------------
 Footer
 --------------------------------------*/
 footer {
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 25px;
 	background-color: #d6d6d6;
 	color: #626162;
 	font-family: Helvetica;
-	height: 300px;
 }
 
-nav#ft-primary {
-	margin: -73px 14px 15px 400px;	
-	width: 125px;	
+nav#ft-primary {	
 }
 
 nav#ft-primary ul {
@@ -219,10 +225,8 @@ nav#ft-primary ul li a {
 
 }
 
-
 nav#ft-secondary {
-	margin: -78px 20px 5px 599px;	
-	width: 125px;
+	float: left;
 }
 
 nav#ft-secondary ul {
@@ -249,6 +253,26 @@ nav#ft-secondary ul li a {
 }
 
 /*---------------------------------------
-
+Mobile
 -----------------------------------------*/
+@media (max-width: 720px) {
+  .newsletter, .header-search, .menu-footer {
+    display: none;
+  }
+  #google-image {
+  	width: auto;
+  }
+
+  #main {
+  	float: left;
+  	width: auto;
+  }
+  aside {
+	float: left;
+	margin: 4px 193px 2px 21px; 	
+  }
+}
+/*--------------------------------------
+Header
+--------------------------------------*/
 
