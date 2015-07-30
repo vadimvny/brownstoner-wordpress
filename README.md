@@ -1,2 +1,2 @@
 # brownstoner-wordpress
-http://162.243.56.234/wordpress/
+http://104.236.121.125/
